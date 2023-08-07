@@ -5,9 +5,13 @@
 Console.WriteLine("Введите целое положительное число");
 int number = Convert.ToInt32(Console.ReadLine());
 int count = 2;
-if (number < 0)
+if (number < 0) 
 {
     Console.WriteLine("Некорректный ввод");
+}
+if (number == 1) 
+{
+    Console.WriteLine("В заданном диапозоне четных чисел нет");
 }
 while (count <= number)
 {
