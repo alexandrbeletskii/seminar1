@@ -12,7 +12,7 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 int number2 = Convert.ToInt32(Console.ReadLine());
 int square = number1 * number2;
-if (number1/number2 == number2)
+if (number1 / number2 == number2)
 {
     Console.WriteLine("yes");
 }
